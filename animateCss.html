@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="animate.css"/>    
+    <link rel="stylesheet" href="hover-min.css"/>
+
+    <!--
+                            - animate.css 사용법 -
+
+        1. animate.css  /  css 소스를 적용하고자하는 html 파일과 같은 폴더에 넣는다
+
+            -   css소스는 재용 깃허브 https://github.com/monekymagic92   /   (레포지토리명 : animateCSS source) -
+
+        2. https://animate.style/ 들어가서 우측 원하는 행위 copy
+
+        3. 예시 : <h3 class="행위 animate_animated">내용</h3>
+
+        4. 추가하고 싶은 요소는 일반 <style> ... </style> 에서 넣는거와 동일
+    -->
+
+    <!--
+                            - hover-min.css 사용법 -
+        
+        1. 위 1번과 동일 (소스 위와 같은 깃허브url)
+        
+        2. https://ianlunn.github.io/Hover/ 접속    하고자하는 행위 f12 눌러서 클래스명만 가져오기
+
+        3.  사용예시(hvr-grow) : <button class="hvr-grow">Click</button>
+
+        4. 추가하고 싶은 요소는 일반 <style> ... </style> 에서 넣는거와 동일
+
+    -->
+</head>
+<style>
+   button {
+       background: black;
+       border: none;
+       color: white;
+       padding:1.2em 2em;
+       width:100px;
+       height:40px;
+       padding: 2px;
+   }
+</style>
+<body>
+                            <!-- animate.css 각종 테스트 예제 -->
+    
+
+    <h3 class="animate__fadeInDownBig animate__animated">Greate github files</h3>    
+    <hr><br>
+    <h3 class="animate__fadeOut animate__animated">Greate github files</h3>    
+    <hr><br>
+    <h3 class="animate__zoomOutDown animate__animated">Greate github files</h3>    
+    <hr><br>
+    <h3 class="animate__zoomInLeft animate__animated">Greate github files</h3>    
+    <hr><br>
+    <div class="container">
+        <h3 class="animate__rollOut animate__animated">Greate github files</h3>    
+    </div> 
+    
+
+    <br><br>
+
+
+    <div>예제 1 <button class="hvr-grow">Click</button></div>
+    <hr><br>
+    <div>예제 2 <button class="hvr-sweep-to-left">Click</button></div>
+    <hr><br>
+    <div>예제 3 <button class="hvr-rectangle-in">Click</button></div>
+    <hr><br>
+    <div>예제 4 <button class="hvr-underline-reveal">Click</button></div>
+    <hr><br>
+    <div>예제 5 <button class="hvr-float-shadow">Click</button></div>
+    <hr><br>
+    <div>예제 6 <button class="hvr-bubble-float-top">Click</button></div>
+    <hr><br>
+    <div>예제 7 <button class="hvr-curl-bottom-right">Click</button></div>
+
+    
+   
+
+    
+</body>
+</html>
